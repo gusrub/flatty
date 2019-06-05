@@ -5,4 +5,4 @@ pipelines:
     - step:
         script: # Modify the commands below to build your repository.
           - gem install --no-ri --no-doc awesome_print minitest
-          - test.sh
+          - ./test.sh
